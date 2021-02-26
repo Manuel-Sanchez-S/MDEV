@@ -654,6 +654,10 @@ video {
   		margin: 0;
   	}
 
+  	.presentacion h2 {
+			display: none;
+		}
+
  @media only screen and (max-width: 520px){
  		.presentacion {
  			position: relative;
@@ -799,6 +803,10 @@ video {
 
 		.container-item img {
 			object-fit: cover;
+		}
+
+		.presentacion h2 {
+			display: none;
 		}
 
  }
